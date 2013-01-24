@@ -1,0 +1,523 @@
+EESchema Schematic File Version 2  date Sun 17 Jun 2012 06:57:07 PM CEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Symbols_ICs-Opto_RevA
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "17 jun 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 3900 2700 0    60   ~ 0
+0,6V
+Text Notes 3950 2350 0    60   ~ 0
+min. 300mW @5V
+Text Notes 3950 3350 0    60   ~ 0
+333 mA
+Text Notes 4000 3050 0    60   ~ 0
+min. 0.25W
+$Comp
+L R R?
+U 1 1 4FDE0437
+P 3850 3000
+F 0 "R?" V 3930 3000 50  0000 C CNN
+F 1 "1R8" V 3850 3000 50  0000 C CNN
+	1    3850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 4700 9400 5800
+Wire Wire Line
+	9400 4700 9450 4700
+Wire Wire Line
+	9950 5700 9950 5900
+Connection ~ 7650 4400
+Wire Wire Line
+	3350 2850 3350 3400
+Wire Wire Line
+	3350 2450 3350 2350
+Wire Wire Line
+	3850 1950 3850 2150
+Wire Wire Line
+	2600 2350 1850 2350
+Wire Wire Line
+	3850 2750 3850 2550
+Wire Wire Line
+	3850 3250 3850 3400
+Wire Wire Line
+	3850 1350 3850 1550
+Wire Wire Line
+	7950 4950 7950 4750
+Wire Wire Line
+	3850 4200 3850 4400
+Connection ~ 3350 5200
+Wire Wire Line
+	3100 5200 3550 5200
+Wire Wire Line
+	3350 6250 3350 6450
+Wire Wire Line
+	3850 6050 3850 6450
+Wire Wire Line
+	7500 5350 7500 5900
+Wire Wire Line
+	6650 5650 6650 5900
+Wire Wire Line
+	7650 5550 7650 5200
+Connection ~ 5600 4400
+Wire Wire Line
+	5850 4400 5600 4400
+Wire Wire Line
+	6650 4100 6650 4650
+Wire Wire Line
+	7650 3550 7650 3350
+Wire Wire Line
+	7650 5200 7500 5200
+Connection ~ 7650 4950
+Wire Wire Line
+	7650 4150 7650 5050
+Wire Wire Line
+	9650 6100 8700 6100
+Wire Wire Line
+	9950 4100 9950 4300
+Wire Wire Line
+	9950 3500 9950 3700
+Wire Wire Line
+	9950 6500 9950 6300
+Wire Wire Line
+	7650 5050 7500 5050
+Wire Wire Line
+	7500 4950 7650 4950
+Wire Wire Line
+	5800 5300 5650 5300
+Wire Wire Line
+	5650 5300 5650 5400
+Wire Wire Line
+	7200 6100 4750 6100
+Wire Wire Line
+	7650 2950 7650 2850
+Wire Wire Line
+	7650 2850 5600 2850
+Wire Wire Line
+	5600 2850 5600 5000
+Wire Wire Line
+	5600 5000 5800 5000
+Connection ~ 6650 4400
+Wire Wire Line
+	7000 4400 6350 4400
+Wire Wire Line
+	7650 4400 7400 4400
+Wire Wire Line
+	7950 5350 7950 5550
+Wire Wire Line
+	5650 5800 5650 5900
+Wire Wire Line
+	7500 6300 7500 6500
+Wire Wire Line
+	3850 5400 3850 5550
+Wire Wire Line
+	3350 5750 3350 5850
+Wire Wire Line
+	3350 5350 3350 5200
+Wire Wire Line
+	2600 5200 1850 5200
+Wire Wire Line
+	3850 4800 3850 5000
+Wire Wire Line
+	3650 2650 3850 2650
+Connection ~ 3850 2650
+Wire Wire Line
+	3100 2350 3550 2350
+Connection ~ 3350 2350
+Wire Wire Line
+	9950 5100 9950 5200
+Wire Wire Line
+	9400 5800 9950 5800
+Connection ~ 9950 5800
+Text Notes 9700 6850 0    60   ~ 0
+>7V VCC
+$Comp
+L R R?
+U 1 1 4FDBC267
+P 9950 5450
+F 0 "R?" V 10030 5450 50  0000 C CNN
+F 1 "R" V 9950 5450 50  0000 C CNN
+	1    9950 5450
+	1    0    0    -1  
+$EndComp
+Text Notes 2650 3800 0    60   ~ 0
+"Cheapo" with two Transistors
+$Comp
+L GND #PWR?
+U 1 1 4FDBB0B0
+P 3350 3400
+F 0 "#PWR?" H 3350 3400 30  0001 C CNN
+F 1 "GND" H 3350 3330 30  0001 C CNN
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q?
+U 1 1 4FDBB07A
+P 3450 2650
+F 0 "Q?" H 3450 2500 50  0000 R CNN
+F 1 "NPN" H 3450 2800 50  0000 R CNN
+	1    3450 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FDBB055
+P 3850 1750
+F 0 "D?" H 3850 1850 50  0000 C CNN
+F 1 "LED R" H 3850 1650 50  0000 C CNN
+	1    3850 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L NPN Q?
+U 1 1 4FDBB054
+P 3750 2350
+F 0 "Q?" H 3750 2200 50  0000 R CNN
+F 1 "NPN" H 3750 2500 50  0000 R CNN
+	1    3750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FDBB052
+P 3850 3400
+F 0 "#PWR?" H 3850 3400 30  0001 C CNN
+F 1 "GND" H 3850 3330 30  0001 C CNN
+	1    3850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FDBB04E
+P 2850 2350
+F 0 "R?" V 2930 2350 50  0000 C CNN
+F 1 "2K2" V 2850 2350 50  0000 C CNN
+	1    2850 2350
+	0    -1   -1   0   
+$EndComp
+Text Label 2000 2350 0    60   ~ 0
+PWM
+$Comp
+L VCC #PWR?
+U 1 1 4FDBB04D
+P 3850 1350
+F 0 "#PWR?" H 3850 1450 30  0001 C CNN
+F 1 "VCC" H 3850 1450 30  0000 C CNN
+	1    3850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4FDBAE0F
+P 7950 4750
+F 0 "#PWR?" H 7950 4850 30  0001 C CNN
+F 1 "VCC" H 7950 4850 30  0000 C CNN
+	1    7950 4750
+	1    0    0    -1  
+$EndComp
+Text Notes 2550 7000 0    60   ~ 0
+"Cheapo" Discrete Current Limiter
+$Comp
+L VCC #PWR?
+U 1 1 4FDBAC15
+P 3850 4200
+F 0 "#PWR?" H 3850 4300 30  0001 C CNN
+F 1 "VCC" H 3850 4300 30  0000 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+Text Label 2000 5200 0    60   ~ 0
+PWM
+$Comp
+L R R?
+U 1 1 4FDBABE3
+P 2850 5200
+F 0 "R?" V 2930 5200 50  0000 C CNN
+F 1 "R" V 2850 5200 50  0000 C CNN
+	1    2850 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FDBABA6
+P 3350 6450
+F 0 "#PWR?" H 3350 6450 30  0001 C CNN
+F 1 "GND" H 3350 6380 30  0001 C CNN
+	1    3350 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4FDBAB7D
+P 3350 6050
+F 0 "D?" H 3350 6150 40  0000 C CNN
+F 1 "DIODE" H 3350 5950 40  0000 C CNN
+	1    3350 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4FDBAB67
+P 3350 5550
+F 0 "D?" H 3350 5650 40  0000 C CNN
+F 1 "DIODE" H 3350 5450 40  0000 C CNN
+	1    3350 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FDBAB43
+P 3850 6450
+F 0 "#PWR?" H 3850 6450 30  0001 C CNN
+F 1 "GND" H 3850 6380 30  0001 C CNN
+	1    3850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FDBAB38
+P 3850 5800
+F 0 "R?" V 3930 5800 50  0000 C CNN
+F 1 "R" V 3850 5800 50  0000 C CNN
+	1    3850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q?
+U 1 1 4FDBAB23
+P 3750 5200
+F 0 "Q?" H 3750 5050 50  0000 R CNN
+F 1 "NPN" H 3750 5350 50  0000 R CNN
+	1    3750 5200
+	1    0    0    -1  
+$EndComp
+Text Notes 9300 7000 0    60   ~ 0
+Analog IC Current Limiter
+Text Notes 6150 7000 0    60   ~ 0
+Switching IC Current Limiter
+$Comp
+L GND #PWR?
+U 1 1 4FDBAA9D
+P 7500 6500
+F 0 "#PWR?" H 7500 6500 30  0001 C CNN
+F 1 "GND" H 7500 6430 30  0001 C CNN
+	1    7500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q?
+U 1 1 4FDBAA8A
+P 7400 6100
+F 0 "Q?" H 7400 5950 50  0000 R CNN
+F 1 "NPN" H 7400 6250 50  0000 R CNN
+	1    7400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FDBAA0A
+P 6650 5900
+F 0 "#PWR?" H 6650 5900 30  0001 C CNN
+F 1 "GND" H 6650 5830 30  0001 C CNN
+	1    6650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FDBAA00
+P 5650 5900
+F 0 "#PWR?" H 5650 5900 30  0001 C CNN
+F 1 "GND" H 5650 5830 30  0001 C CNN
+	1    5650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FDBA9BE
+P 7650 5550
+F 0 "#PWR?" H 7650 5550 30  0001 C CNN
+F 1 "GND" H 7650 5480 30  0001 C CNN
+	1    7650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FDBA99D
+P 7950 5550
+F 0 "#PWR?" H 7950 5550 30  0001 C CNN
+F 1 "GND" H 7950 5480 30  0001 C CNN
+	1    7950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D?
+U 1 1 4FDBA8C8
+P 7200 4400
+F 0 "D?" H 7200 4500 40  0000 C CNN
+F 1 "DIODESCH" H 7200 4300 40  0000 C CNN
+	1    7200 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FDBA874
+P 6100 4400
+F 0 "R?" V 6180 4400 50  0000 C CNN
+F 1 "R" V 6100 4400 50  0000 C CNN
+	1    6100 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C?
+U 1 1 4FDBA82E
+P 7950 5150
+F 0 "C?" H 8000 5250 50  0000 L CNN
+F 1 "CP" H 8000 5050 50  0000 L CNN
+	1    7950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4FDBA7D9
+P 6650 4100
+F 0 "#PWR?" H 6650 4200 30  0001 C CNN
+F 1 "VCC" H 6650 4200 30  0000 C CNN
+	1    6650 4100
+	1    0    0    -1  
+$EndComp
+Text Label 4850 6100 0    60   ~ 0
+PWM
+$Comp
+L C C?
+U 1 1 4FDBA6B8
+P 5650 5600
+F 0 "C?" H 5700 5700 50  0000 L CNN
+F 1 "C" H 5700 5500 50  0000 L CNN
+	1    5650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 4FDBA63E
+P 7650 3850
+F 0 "L?" V 7600 3850 40  0000 C CNN
+F 1 "INDUCTOR" V 7750 3850 40  0000 C CNN
+	1    7650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MC34063 U?
+U 1 1 4FDBA4FF
+P 6650 5150
+F 0 "U?" H 6800 5500 60  0000 L CNN
+F 1 "MC34063" H 6750 4800 60  0000 L CNN
+	1    6650 5150
+	1    0    0    -1  
+$EndComp
+Text Label 8950 6100 0    60   ~ 0
+PWM
+$Comp
+L NPN Q?
+U 1 1 4FDBA1A2
+P 9850 6100
+F 0 "Q?" H 9850 5950 50  0000 R CNN
+F 1 "NPN" H 9850 6250 50  0000 R CNN
+	1    9850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FDBA18F
+P 9950 6500
+F 0 "#PWR?" H 9950 6500 30  0001 C CNN
+F 1 "GND" H 9950 6430 30  0001 C CNN
+	1    9950 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4FDBA147
+P 9950 3500
+F 0 "#PWR?" H 9950 3600 30  0001 C CNN
+F 1 "VCC" H 9950 3600 30  0000 C CNN
+	1    9950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM317 U?
+U 1 1 4FDBA0CC
+P 9800 4700
+F 0 "U?" H 9800 5000 60  0000 C CNN
+F 1 "LM317" H 9850 4450 60  0000 L CNN
+	1    9800 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FDBA0B0
+P 9950 3900
+F 0 "D?" H 9950 4000 50  0000 C CNN
+F 1 "LED B" H 9950 3800 50  0000 C CNN
+	1    9950 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FDB9FE7
+P 7650 3150
+F 0 "D?" H 7650 3250 50  0000 C CNN
+F 1 "LED G" H 7650 3050 50  0000 C CNN
+	1    7650 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FDB9FDD
+P 3850 4600
+F 0 "D?" H 3850 4700 50  0000 C CNN
+F 1 "LED R" H 3850 4500 50  0000 C CNN
+	1    3850 4600
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

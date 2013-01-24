@@ -1,0 +1,109 @@
+eeschema (2012-jan-04)-stable  >> Creation date: Thu 29 Nov 2012 12:44:42 AM CET
+
+#Cmp ( order = Reference )
+| C1         100n        ; SM0603_Capa 
+| C2         100n        ; SM0603_Capa 
+| C3         220µ       ; c_elec_6.3x7.7
+| C4         100n        ; SM0603_Capa 
+| C5         100n        ; SM0603_Capa 
+| C6         22p         ; SM0603_Capa 
+| C7         100n        ; SM0603_Capa 
+| C8         100n        ; SM0603_Capa 
+| C9         22p         ; SM0603_Capa 
+| C10        1uF         ; SM0603_Capa 
+| CON1       AVR-ISP-6   ; AVR-ISP-6   
+| D1         PWR_LED     ; LED-0603    
+| JP1        LEDS_ON     ; PIN_ARRAY_2X1
+| P1         PWR IN      ; PIN_ARRAY_2X1
+| P2         PD0         ; PIN_ARRAY_1 
+| P3         PD1         ; PIN_ARRAY_1 
+| P4         PD2         ; PIN_ARRAY_1 
+| P5         PD3         ; PIN_ARRAY_1 
+| P6         PD4         ; PIN_ARRAY_1 
+| P7         PB0         ; PIN_ARRAY_1 
+| P8         PD7         ; PIN_ARRAY_1 
+| P9         PD6         ; PIN_ARRAY_1 
+| P10        PD5         ; PIN_ARRAY_1 
+| P11        PB4         ; PIN_ARRAY_1 
+| P12        PB5         ; PIN_ARRAY_1 
+| P13        PB6         ; PIN_ARRAY_1 
+| P14        PC7         ; PIN_ARRAY_1 
+| P15        USB-B-S     ; MICRO-B_USB 
+| P16        IR          ; PIN_ARRAY_3X1
+| P17        LEDS        ; PIN_ARRAY_4x1
+| Q1         MMBT2222A   ; SOT23EBC    
+| Q2         BCX5616TA   ; sot89a      
+| Q3         MMBT2222A   ; SOT23EBC    
+| Q4         MMBT2222A   ; SOT23EBC    
+| Q5         BCX5616TA   ; sot89a      
+| Q6         BCX5616TA   ; sot89       
+| R1         120k        ; SM0603      
+| R2         33k         ; SM0603      
+| R3         22          ; SM0603      
+| R4         22          ; SM0603      
+| R5         2K2         ; SM0603      
+| R6         1R8         ; SM1206      
+| R7         2K2         ; SM0603      
+| R8         2K2         ; SM0603      
+| R9         1R8         ; SM1206      
+| R10        1R8         ; SM1206      
+| R11        1k5         ; SM0603      
+| U1         ATMEGA32U2  ; TQFP32      
+| X1         CRYSTAL_4P  ; CRYSTAL_3.2x2.5
+| X2         CSTCE16M0V53-R0; CER_OSC     
+#End Cmp
+
+#Cmp ( order = Value )
+| 100n         C1        ; SM0603_Capa 
+| 100n         C2        ; SM0603_Capa 
+| 100n         C4        ; SM0603_Capa 
+| 100n         C5        ; SM0603_Capa 
+| 100n         C7        ; SM0603_Capa 
+| 100n         C8        ; SM0603_Capa 
+| 120k         R1        ; SM0603      
+| 1k5          R11       ; SM0603      
+| 1R8          R6        ; SM1206      
+| 1R8          R9        ; SM1206      
+| 1R8          R10       ; SM1206      
+| 1uF          C10       ; SM0603_Capa 
+| 22           R3        ; SM0603      
+| 22           R4        ; SM0603      
+| 220µ        C3        ; c_elec_6.3x7.7
+| 22p          C6        ; SM0603_Capa 
+| 22p          C9        ; SM0603_Capa 
+| 2K2          R5        ; SM0603      
+| 2K2          R7        ; SM0603      
+| 2K2          R8        ; SM0603      
+| 33k          R2        ; SM0603      
+| ATMEGA32U2   U1        ; TQFP32      
+| AVR-ISP-6    CON1      ; AVR-ISP-6   
+| BCX5616TA    Q2        ; sot89a      
+| BCX5616TA    Q5        ; sot89a      
+| BCX5616TA    Q6        ; sot89       
+| CRYSTAL_4P   X1        ; CRYSTAL_3.2x2.5
+| CSTCE16M0V53-R0 X2        ; CER_OSC     
+| IR           P16       ; PIN_ARRAY_3X1
+| LEDS         P17       ; PIN_ARRAY_4x1
+| LEDS_ON      JP1       ; PIN_ARRAY_2X1
+| MMBT2222A    Q1        ; SOT23EBC    
+| MMBT2222A    Q3        ; SOT23EBC    
+| MMBT2222A    Q4        ; SOT23EBC    
+| PB0          P7        ; PIN_ARRAY_1 
+| PB4          P11       ; PIN_ARRAY_1 
+| PB5          P12       ; PIN_ARRAY_1 
+| PB6          P13       ; PIN_ARRAY_1 
+| PC7          P14       ; PIN_ARRAY_1 
+| PD0          P2        ; PIN_ARRAY_1 
+| PD1          P3        ; PIN_ARRAY_1 
+| PD2          P4        ; PIN_ARRAY_1 
+| PD3          P5        ; PIN_ARRAY_1 
+| PD4          P6        ; PIN_ARRAY_1 
+| PD5          P10       ; PIN_ARRAY_1 
+| PD6          P9        ; PIN_ARRAY_1 
+| PD7          P8        ; PIN_ARRAY_1 
+| PWR IN       P1        ; PIN_ARRAY_2X1
+| PWR_LED      D1        ; LED-0603    
+| USB-B-S      P15       ; MICRO-B_USB 
+#End Cmp
+
+#End List

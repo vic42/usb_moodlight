@@ -1,0 +1,403 @@
+Cmp-Mod V01 Genere par PcbNew le Thu 29 Nov 2012 12:24:12 AM CET
+
+BeginCmp
+TimeStamp = 5095BCCA
+Path = /5095BA09
+Reference = X1;
+ValeurCmp = [NoVal];
+IdModule  = CRYSTAL_3.2x2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5095B0F1
+Path = /508CAEF4
+Reference = P15;
+ValeurCmp = USB;
+IdModule  = MICRO-B_USB;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944517
+Path = /508CA34A
+Reference = U1;
+ValeurCmp = ATMEGA32U2;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944569
+Path = /4FDF0E34
+Reference = C3;
+ValeurCmp = 220µ;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944567
+Path = /4FDF87DD
+Reference = D1;
+ValeurCmp = PWR_LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944518
+Path = /4FDE0CC8
+Reference = Q6;
+ValeurCmp = [NoVal];
+IdModule  = sot89;
+EndCmp
+
+BeginCmp
+TimeStamp = 5095BACB
+Path = /508D7A25
+Reference = X2;
+ValeurCmp = [NoVal];
+IdModule  = CER_OSC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094451D
+Path = /4FDE0CC6
+Reference = Q4;
+ValeurCmp = [NoVal];
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094451F
+Path = /4FDE0CEA
+Reference = Q3;
+ValeurCmp = [NoVal];
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944521
+Path = /4FDBB07A
+Reference = Q1;
+ValeurCmp = [NoVal];
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944522
+Path = /4FDE0CC4
+Reference = R10;
+ValeurCmp = 1R8;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944524
+Path = /4FDE0CEC
+Reference = R9;
+ValeurCmp = 1R8;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944526
+Path = /4FDE0437
+Reference = R6;
+ValeurCmp = 1R8;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944527
+Path = /508D65C5
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944529
+Path = /4FDF0E3D
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094452B
+Path = /508CB4FE
+Reference = C10;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094452D
+Path = /4FDF0E78
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094452F
+Path = /4FDF0F4F
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944531
+Path = /508CA5E0
+Reference = C9;
+ValeurCmp = 22p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 509914DC
+Path = /4FDF0F58
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944535
+Path = /508CA5CC
+Reference = C6;
+ValeurCmp = 22p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944537
+Path = /4FDF0F53
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944538
+Path = /4FDBB04E
+Reference = R5;
+ValeurCmp = 2K2;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094453A
+Path = /508D6546
+Reference = R1;
+ValeurCmp = 120k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094453C
+Path = /508D656B
+Reference = R2;
+ValeurCmp = 33k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094453E
+Path = /50906E8D
+Reference = R3;
+ValeurCmp = 22;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944540
+Path = /50906E79
+Reference = R4;
+ValeurCmp = 22;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944542
+Path = /4FDE0CE6
+Reference = R7;
+ValeurCmp = 2K2;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944544
+Path = /4FDE0CCA
+Reference = R8;
+ValeurCmp = 2K2;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944546
+Path = /4FDF87F2
+Reference = R11;
+ValeurCmp = 1k5;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 509959A7
+Path = /4FE09E40
+Reference = P17;
+ValeurCmp = [NoVal];
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944548
+Path = /4FDE0DF8
+Reference = ISP;
+ValeurCmp = AVR-ISP-6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944549
+Path = /4FDE16C9
+Reference = P16;
+ValeurCmp = IR;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094454A
+Path = /508CB7BC
+Reference = JP1;
+ValeurCmp = [NoVal];
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094454C
+Path = /4FDF0868
+Reference = P1;
+ValeurCmp = PWR_IN;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094454D
+Path = /508D9A8C
+Reference = P8;
+ValeurCmp = PD7;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094454F
+Path = /508D9A57
+Reference = P2;
+ValeurCmp = PD0;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944551
+Path = /508D9A56
+Reference = P3;
+ValeurCmp = PD1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944553
+Path = /508D9A55
+Reference = P4;
+ValeurCmp = PD2;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944555
+Path = /508D9A54
+Reference = P5;
+ValeurCmp = PD3;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944557
+Path = /508D9A64
+Reference = P6;
+ValeurCmp = PD4;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944559
+Path = /508D9A8D
+Reference = P7;
+ValeurCmp = PB0;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094455B
+Path = /508D9A8B
+Reference = P9;
+ValeurCmp = PD6;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094455D
+Path = /508D9A8A
+Reference = P10;
+ValeurCmp = PD5;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094455F
+Path = /508D98FF
+Reference = P11;
+ValeurCmp = PB4;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944561
+Path = /508D9916
+Reference = P12;
+ValeurCmp = PB5;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944563
+Path = /508D9922
+Reference = P13;
+ValeurCmp = PB6;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 50944565
+Path = /508D9928
+Reference = P14;
+ValeurCmp = PC7;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094451A
+Path = /4FDE0CE8
+Reference = Q5;
+ValeurCmp = [NoVal];
+IdModule  = sot89a;
+EndCmp
+
+BeginCmp
+TimeStamp = 5094451C
+Path = /4FDBB054
+Reference = Q2;
+ValeurCmp = [NoVal];
+IdModule  = sot89a;
+EndCmp
+
+EndListe

@@ -1,0 +1,4 @@
+#!/bin/sh
+dfu-programmer atmega32u2 erase
+dfu-programmer atmega32u2 flash *.hex
+dfu-programmer atmega32u2 start

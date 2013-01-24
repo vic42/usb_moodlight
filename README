@@ -1,8 +1,9 @@
-Hi, I hope you find this stuff useful.
+Hi, i hope you find this stuff useful. It has been designed as a novice DIY
+reflow soldering micro controller execise.
 
-I include parts of the LUFA library because i needed to modify it slightly
-in order to make it compile this project, particularly adding a "-lm" into
-lufa_build.mk to include the math lib.
+I have included parts of the LUFA library because i needed to modify it
+slightly in order to get this project compiled, particularly adding a "-lm"
+into lufa_build.mk to include the math lib.
 
 For the beginner, it is much easier to have a project to compile right away
 without the need to worry about broken dependencies.
@@ -11,5 +12,55 @@ Another thing i had to fix was the cross-avr header that describes the
 atmega32u2 because it was incomplete in my distro. I include my version here
 for reference. In my distro it goes to /opt/cross/avr/avr/include/avr/iom32u2.h
 
-Hmm, what else...
+PREREQUISITES:
+==============
 
+1) You will a need cross-avr-gcc toolchain and libc. I used a build from Suse:
+   https://build.opensuse.org/project/show?project=CrossToolchain%3Aavr
+   to my knowledge, minimum gcc version supporting the 32u2 chip is
+   avr-gcc-462 (4.6.2). Any more recent version should suit as well.
+
+2) dfu-programmer
+   http://dfu-programmer.sourceforge.net/
+
+BUILD:
+======
+
+1) cd USBpwm
+2) make && ./flash
+
+! Remember to shortly short the RST and GND lines before flashing, e.g. using
+! a metal pencil tip at the right edge of the "ISP" connector.
+
+for the "flash" script to work, you need write permission to the USB port.
+Flashing as root user will always work, if in doubt.
+
+RUN:
+====
+
+Actually, the last statement within the flash script should have started
+your firmware already, provided your USB provides sufficient current for
+the circuit. If your USB is limited to the standard 100 mA load, you may
+want to pull the "ON" jumper to disconnect the high power LED while
+programming.
+
+talking to your moodlight is as easy as this:
+
+screen /dev/ttyACM0
+
+at the time of writing it understands the following commands:
+
+r -> reduce red intensity
+R -> increase red intensity
+g -> reduce green intensity
+G -> increase green intensity
+b -> reduce blue intensity
+B -> increase blue intensity
+h -> reply "# Hello World" (# = incrementing digit)
+
+PLAY:
+=====
+
+Have fun and please contribute your improvements!
+
+Peter (vic@ccc.de)
