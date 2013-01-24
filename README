@@ -1,0 +1,15 @@
+Hi, I hope you find this stuff useful.
+
+I include parts of the LUFA library because i needed to modify it slightly
+in order to make it compile this project, particularly adding a "-lm" into
+lufa_build.mk to include the math lib.
+
+For the beginner, it is much easier to have a project to compile right away
+without the need to worry about broken dependencies.
+
+Another thing i had to fix was the cross-avr header that describes the
+atmega32u2 because it was incomplete in my distro. I include my version here
+for reference. In my distro it goes to /opt/cross/avr/avr/include/avr/iom32u2.h
+
+Hmm, what else...
+
